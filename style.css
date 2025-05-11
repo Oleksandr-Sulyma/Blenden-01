@@ -1,0 +1,17 @@
+/* кнопка у хедері головной сторінки */
+.button-link {
+  display: inline-block; /* Дозволяє задавати padding та margin */
+  padding: 10px 20px; /* Внутрішні відступи */
+  margin: 5px; /* Зовнішні відступи (за бажанням) */
+  background-color: #007bff; /* Колір фону кнопки */
+  color: white; /* Колір тексту */
+  text-decoration: none; /* Прибрати підкреслення у посилання */
+  border: none; /* Прибрати стандартну рамку */
+  border-radius: 5px; /* Заокруглені кути */
+  cursor: pointer; /* Змінити курсор на "руку" при наведенні */
+  text-align: center;
+}
+
+.button-link:hover {
+  background-color: #0056b3; /* Колір фону при наведенні */
+}
